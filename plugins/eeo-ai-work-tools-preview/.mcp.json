@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "eeo-personal": {
+      "type": "http",
+      "url": "https://eeocrm-personal.coolify.eeo-inc.com/mcp"
+    }
+  }
+}

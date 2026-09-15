@@ -1,0 +1,20 @@
+{
+  "name": "business-buddy",
+  "interface": {
+    "displayName": "Business Buddy"
+  },
+  "plugins": [
+    {
+      "name": "eeo-ai-work-tools-preview",
+      "source": {
+        "source": "local",
+        "path": "./plugins/eeo-ai-work-tools-preview"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    }
+  ]
+}

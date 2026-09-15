@@ -1,0 +1,15 @@
+{
+  "pluginName": "eeo-ai-work-tools-preview",
+  "pluginVersion": "0.5.0+codex.20260915101735",
+  "marketplaceName": "business-buddy",
+  "source": "https://github.com/Sean-xiang-dot/businessbuddy.git",
+  "branch": "main",
+  "access": "public",
+  "files": {
+    ".agents/plugins/marketplace.json": "9225642555d8c1d819c53e146489396adcdf7a1c7a774370542e5458bb55dce8",
+    "plugins/eeo-ai-work-tools-preview/.codex-plugin/plugin.json": "076610f29dd8e77c691958527ee82a17ceb8b40be1d44911759131918f7f2f57",
+    "plugins/eeo-ai-work-tools-preview/.mcp.json": "b7c785874fb5834ffdbaba261d2e5d350a5ef755a5b92e2112aa2073089fcd22",
+    "plugins/eeo-ai-work-tools-preview/skills/eeo-ai-work-tools/SKILL.md": "97d7a2603f4a5711d221fcc43853487453d40a4214b9beeda07e556212b9c074",
+    "plugins/eeo-ai-work-tools-preview/skills/eeo-ai-work-tools/references/workflows.md": "68147c73dab238bbe70153be1ca670ece8b00ac260bd6f056ec3db343257408f"
+  }
+}
