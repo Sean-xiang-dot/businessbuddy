@@ -7,7 +7,7 @@
 - 公开 Git 源：`https://github.com/Sean-xiang-dot/businessbuddy.git`，分支 `main`。
 - 市场 `business-buddy`；清单 `.agents/plugins/marketplace.json`。
 - 插件 `eeo-ai-work-tools-preview`；显示名 **Business Buddy**。保留技术标识兼容已有安装，不要求用户记住它。
-- 精确版本以 `RELEASE.json.pluginVersion` 为准，比较完整版本而非仅 `0.6.1`。
+- 精确版本以 `RELEASE.json.pluginVersion` 为准，比较完整版本而非仅 `0.6.2`。
 - 唯一远程 MCP：`eeo-personal`，HTTP，`https://meeting.wswer.com/eeocrm/mcp`。
 - 拉取公开仓库不需 GitLab 或 GitHub 登录；业务操作仍需本人授权，公开插件不授予 CRM 或团队数据权限。
 

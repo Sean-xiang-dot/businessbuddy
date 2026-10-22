@@ -14,10 +14,19 @@ description: 路由 EEO 内部业务请求到 Business Buddy、BrightTrail 与�
 | 查询或修改 CRM 客户、联系人、商机、订单及其他正式字段 | Personal 暴露的 CRM 工具 |
 | 查看本周安排、创建计划、记录真实拜访或会议、保存材料、回报结果、求助或查看连续客户上下文 | Business Buddy / BrightTrail 工具 |
 | 将真实活动同步到 CRM | 优先使用 Business Buddy 的活动提交工作流；以工具返回的实际同步状态为准，不重复创建 CRM Activity |
+| 查询某事业部经营、业绩、收款、客户健康或看板口径 | 先用 Personal 识别事业部，再读取版本化业务知识索引、指标、看板与冲突资源 |
 | 只是分析、起草、讨论管理方法 | 直接回答，不写入任何业务系统 |
 | 部署、密钥、服务器、仓库、数据库或管理员配置 | 停止业务路由，说明需要维护者处理；团队版技能不提供运维路径 |
 
 不要按客户名称把不同系统的对象猜测为同一条记录；只使用工具返回的正式 ID、来源键或已验证关联。CRM 正式字段、BrightTrail 保存的原始材料、AI 整理结果和用户复述要分别表述。
+
+## 业务知识路由
+
+- 先调用 `crm_business_context` 确认当前事业部；共用 CRM 对象不代表共用正式指标。
+- 涉及指标定义时，先读 `xiaoshouyi://business-knowledge/index`，再按需读 `/metrics`、`/dashboards`、`/catalog` 或 `/conflicts`。
+- K12、企培、高校、海外、NOBOOK 和硬件使用独立画像。Skill 只负责路由和保留完整指标名，不复制指标公式或看板组件。
+- 返回 `not_implemented`、`not_confirmed`、`known_conflict` 或 `scope_conflicted` 时，说明缺口并停止下正式结论；不得拿相近字段、别的事业部口径或旧看板补位。
+- 看板出现某个名称不自动证明它是正式管理指标；实时数值仍按本人 OAuth 与 CRM 原生权限查询。
 
 ## 身份与权限
 
