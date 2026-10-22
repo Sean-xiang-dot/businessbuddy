@@ -2,7 +2,7 @@
   "mcpServers": {
     "eeo-personal": {
       "type": "http",
-      "url": "https://eeocrm-personal.coolify.eeo-inc.com/mcp"
+      "url": "https://meeting.wswer.com/eeocrm/mcp"
     }
   }
 }

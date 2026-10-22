@@ -1,6 +1,6 @@
 {
   "name": "eeo-ai-work-tools-preview",
-  "version": "0.5.0+codex.20260915101735",
+  "version": "0.6.1+codex.20261022144950",
   "description": "Business Buddy\uff1a\u7528\u672c\u4eba\u8d26\u53f7\u5b89\u6392\u5de5\u4f5c\u3001\u8bb0\u5f55\u5ba2\u6237\u4e92\u52a8\u3001\u56de\u62a5\u8fdb\u5c55\u548c\u8bf7\u6c42\u652f\u6301\uff0c\u4e0e\u884c\u52a8\u65e5\u5386\u5171\u7528\u4e1a\u52a1\u8bb0\u5f55\u3002",
   "author": {
     "name": "Business Buddy"

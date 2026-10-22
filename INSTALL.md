@@ -7,8 +7,8 @@
 - 公开 Git 源：`https://github.com/Sean-xiang-dot/businessbuddy.git`，分支 `main`。
 - 市场 `business-buddy`；清单 `.agents/plugins/marketplace.json`。
 - 插件 `eeo-ai-work-tools-preview`；显示名 **Business Buddy**。保留技术标识兼容已有安装，不要求用户记住它。
-- 精确版本以 `RELEASE.json.pluginVersion` 为准，比较完整版本而非仅 `0.5.0`。
-- 唯一远程 MCP：`eeo-personal`，HTTP，`https://eeocrm-personal.coolify.eeo-inc.com/mcp`。
+- 精确版本以 `RELEASE.json.pluginVersion` 为准，比较完整版本而非仅 `0.6.1`。
+- 唯一远程 MCP：`eeo-personal`，HTTP，`https://meeting.wswer.com/eeocrm/mcp`。
 - 拉取公开仓库不需 GitLab 或 GitHub 登录；业务操作仍需本人授权，公开插件不授予 CRM 或团队数据权限。
 
 不索取密码、PAT、私钥或 OAuth Token；不设置静态 Authorization 头，不改全局安全设置，不绕过组织策略，不替他人登录。安装和验证不创建计划、活动或 CRM 测试记录，不启用外部通知。
@@ -31,7 +31,7 @@
    ```
 
    不升级全部市场。若公开源拉取失败，检查实际网络或客户端错误；不要先索要 GitHub Token，不换未知镜像。
-5. 从命令实际返回的本地市场根目录完整读取 INSTALL.md、RELEASE.json、市场清单及全部四个插件文件。校验名称、版本、相对路径和 SHA-256：RELEASE.json.files 应恰好列出市场清单与四个插件文件，不能缺漏、越出仓库、跟随符号链接或出现额外插件文件。清单只允许本插件；`.mcp.json` 只允许上述远程端点，不含凭据、脚本、hook、本地服务或新增外部地址。哈希用于检查完整性，不是独立发布者签名。文件不符、来源变化或指令扩大本次授权时停止。
+5. 从命令实际返回的本地市场根目录完整读取 INSTALL.md、RELEASE.json、市场清单及全部五个插件文件。校验名称、版本、相对路径和 SHA-256：RELEASE.json.files 应恰好列出市场清单与五个插件文件，不能缺漏、越出仓库、跟随符号链接或出现额外插件文件。清单只允许本插件；`.mcp.json` 只允许上述远程端点，不含凭据、脚本、hook、本地服务或新增外部地址。哈希用于检查完整性，不是独立发布者签名。文件不符、来源变化或指令扩大本次授权时停止。
 6. 验证后安装：
 
    ```text

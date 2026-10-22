@@ -16,7 +16,7 @@
 
 ## 怎么使用
 
-[开始使用与工作台指引](https://eeocrm-personal.coolify.eeo-inc.com/workbench/start) · [打开行动日历](https://eeocrm-personal.coolify.eeo-inc.com/workbench/)
+[开始使用与工作台指引](https://meeting.wswer.com/eeocrm/workbench/start) · [打开行动日历](https://meeting.wswer.com/eeocrm/workbench/)
 
 - 看安排：“看看我这周有什么安排。”
 - 记计划：“明天下午去拜访某客户，帮我记一下。”
