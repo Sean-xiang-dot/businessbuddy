@@ -1,16 +1,16 @@
 {
   "pluginName": "eeo-ai-work-tools-preview",
-  "pluginVersion": "0.6.2+codex.20261022172046",
+  "pluginVersion": "0.6.3+codex.20261030104846",
   "marketplaceName": "business-buddy",
   "source": "https://github.com/Sean-xiang-dot/businessbuddy.git",
   "branch": "main",
   "access": "public",
   "files": {
     ".agents/plugins/marketplace.json": "9225642555d8c1d819c53e146489396adcdf7a1c7a774370542e5458bb55dce8",
-    "plugins/eeo-ai-work-tools-preview/.codex-plugin/plugin.json": "87493ca9e55f2c61b5458e424fce1afb5994c416cfcbaff685fc6b0b2f3484e6",
+    "plugins/eeo-ai-work-tools-preview/.codex-plugin/plugin.json": "f83674ac9c9cec6cdae745e8d92add7d10a4fc2a3e9041688ffaa9e21fc5ec5f",
     "plugins/eeo-ai-work-tools-preview/.mcp.json": "bd1c07a0a5073f94062f828e715c64ce52b5add1a3a62623099e9e86b636072d",
-    "plugins/eeo-ai-work-tools-preview/skills/eeo-ai-work-tools/SKILL.md": "41e6948c3df0218dfd59c4a480ca0e614624cc98df77e07358fb28aeba5b6dd4",
-    "plugins/eeo-ai-work-tools-preview/skills/eeo-ai-work-tools/references/workflows.md": "d3c81ee38234abc2618d7a6478b950e9f578e360aa0b73fb65675bd044bcf64a",
+    "plugins/eeo-ai-work-tools-preview/skills/eeo-ai-work-tools/SKILL.md": "7a216b51a82c4326fdb4b8b65e3f1be3e61d5af6b332259985067c47bf148511",
+    "plugins/eeo-ai-work-tools-preview/skills/eeo-ai-work-tools/references/workflows.md": "3ef5dd3a234ebbf3d9140a57245f339da9710e5c419003d1284574b50ce697a6",
     "plugins/eeo-ai-work-tools-preview/skills/eeo-systems/SKILL.md": "eb729d5cee35377d4b401426f0d132fd83b29e37d2c39508ffc3bfd963f9b5fb"
   }
 }
